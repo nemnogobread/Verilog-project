@@ -1,0 +1,128 @@
+$date
+	Tue May 21 23:01:47 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fadder_tb_4bit $end
+$var wire 4 ! sum [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module fadder_4bit $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 4 & sum [3:0] $end
+$var wire 5 ' carry_in [4:0] $end
+$scope module adder0 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 * carry_in $end
+$var wire 1 + sum $end
+$upscope $end
+$scope module adder1 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 . carry_in $end
+$var wire 1 / sum $end
+$upscope $end
+$scope module adder2 $end
+$var wire 1 0 a $end
+$var wire 1 1 b $end
+$var wire 1 2 carry_in $end
+$var wire 1 3 sum $end
+$upscope $end
+$scope module adder3 $end
+$var wire 1 4 a $end
+$var wire 1 5 b $end
+$var wire 1 6 carry_in $end
+$var wire 1 7 sum $end
+$upscope $end
+$scope module fast_shift $end
+$var wire 4 8 a [3:0] $end
+$var wire 4 9 b [3:0] $end
+$var wire 1 : cin $end
+$var wire 1 ; g0 $end
+$var wire 1 < g1 $end
+$var wire 1 = g2 $end
+$var wire 1 > g3 $end
+$var wire 1 ? p0 $end
+$var wire 1 @ p1 $end
+$var wire 1 A p2 $end
+$var wire 1 B p3 $end
+$var wire 5 C c [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1110 C
+0B
+0A
+1@
+0?
+0>
+1=
+0<
+1;
+0:
+b111 9
+b101 8
+17
+16
+05
+04
+13
+12
+11
+10
+0/
+1.
+1-
+0,
+0+
+0*
+1)
+1(
+b1110 '
+b1100 &
+b111 %
+b101 $
+b111 #
+b101 "
+b1100 !
+$end
+#1
+06
+0.
+1+
+0/
+b1101 !
+b1101 &
+17
+b100 '
+b100 C
+1?
+0@
+1B
+0;
+1<
+0=
+01
+0(
+1,
+00
+14
+b11 #
+b11 %
+b11 9
+b1010 "
+b1010 $
+b1010 8
+#2

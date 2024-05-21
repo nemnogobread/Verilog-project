@@ -1,0 +1,97 @@
+$date
+	Mon May 20 17:06:48 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module adder_tb_4bit $end
+$var wire 4 ! sum [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$scope module adder_4bit_inst $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 4 & sum [3:0] $end
+$var wire 1 ' c3 $end
+$var wire 1 ( c2 $end
+$var wire 1 ) c1 $end
+$var wire 1 * c0 $end
+$scope module adder0 $end
+$var wire 1 + a $end
+$var wire 1 , b $end
+$var wire 1 - carry_in $end
+$var wire 1 * carry_out $end
+$var wire 1 . sum $end
+$upscope $end
+$scope module adder1 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 * carry_in $end
+$var wire 1 ) carry_out $end
+$var wire 1 1 sum $end
+$upscope $end
+$scope module adder2 $end
+$var wire 1 2 a $end
+$var wire 1 3 b $end
+$var wire 1 ) carry_in $end
+$var wire 1 ( carry_out $end
+$var wire 1 4 sum $end
+$upscope $end
+$scope module adder3 $end
+$var wire 1 5 a $end
+$var wire 1 6 b $end
+$var wire 1 ( carry_in $end
+$var wire 1 ' carry_out $end
+$var wire 1 7 sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+17
+06
+05
+04
+03
+12
+01
+10
+1/
+1.
+0-
+0,
+1+
+0*
+1)
+1(
+0'
+b1001 &
+b10 %
+b111 $
+b10 #
+b111 "
+b1001 !
+$end
+#1
+0(
+0'
+14
+b1101 !
+b1101 &
+17
+1,
+0+
+02
+15
+b11 #
+b11 %
+b1010 "
+b1010 $
+#2
